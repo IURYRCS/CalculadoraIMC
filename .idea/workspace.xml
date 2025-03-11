@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d60fa06e-449b-4823-9f8c-c09d7ae0d19d" name="Changes" comment="Primeiro">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/CalculadoraIMC/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/CalculadoraIMC/MainApp.java" afterDir="false" />
-    </list>
+    <list default="true" id="d60fa06e-449b-4823-9f8c-c09d7ae0d19d" name="Changes" comment="Primeiro" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1740613338482</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Primeiro">
+      <created>1741729769997</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741729769997</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Primeiro">
+      <created>1741729821127</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741729821127</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
