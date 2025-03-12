@@ -17,7 +17,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="409.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.CalculadoraIMC.controller.MainController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="409.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.CalculadoraIMC.controller.MainController">
    <children>
       <MenuBar prefHeight="25.0" prefWidth="632.0">
         <menus>
@@ -40,7 +40,7 @@
       </MenuBar>
       <HBox prefHeight="187.0" prefWidth="600.0">
          <children>
-            <VBox prefHeight="383.0" prefWidth="396.0">
+            <VBox prefHeight="187.0" prefWidth="426.0">
                <children>
                   <GridPane prefHeight="144.0" prefWidth="233.0">
                     <columnConstraints>
@@ -78,8 +78,13 @@
                         <Insets bottom="5.0" left="5.0" right="5.0" />
                      </padding>
                   </GridPane>
-                  <HBox prefHeight="40.0" prefWidth="308.0">
+                  <HBox prefHeight="45.0" prefWidth="413.0">
                      <children>
+                        <Button fx:id="btnNovo" layoutX="274.0" layoutY="20.0" mnemonicParsing="false" onAction="#onBtnNovo" prefHeight="50.0" prefWidth="130.0" text="NOVO">
+                           <HBox.margin>
+                              <Insets bottom="10.0" left="1.0" right="1.0" top="10.0" />
+                           </HBox.margin>
+                        </Button>
                       <Button fx:id="btnCalcularIMC" mnemonicParsing="false" onAction="#onBtnCalcularImc" prefHeight="50.0" prefWidth="130.0" text="CALCULAR IMC">
                            <HBox.margin>
                               <Insets bottom="10.0" left="1.0" right="1.0" top="10.0" />
@@ -99,14 +104,14 @@
                   </HBox>
                </children>
             </VBox>
-            <VBox prefHeight="187.0" prefWidth="205.0">
+            <VBox prefHeight="187.0" prefWidth="234.0">
                <children>
                   <Label alignment="CENTER" prefHeight="58.0" prefWidth="202.0" text="Calculo IMC">
                      <font>
                         <Font name="Bell MT Bold" size="18.0" />
                      </font>
                   </Label>
-                  <Label fx:id="labelCalculo" alignment="CENTER" prefHeight="58.0" prefWidth="218.0" text="0.00" textAlignment="CENTER">
+                  <Label fx:id="lbIMC" alignment="CENTER" prefHeight="84.0" prefWidth="223.0" text="0.00" textAlignment="CENTER">
                      <font>
                         <Font name="Bell MT Bold" size="70.0" />
                      </font>

@@ -1,14 +1,32 @@
 package org.CalculadoraIMC.model.entity;
 
 public class Pessoa {
+    private long id;
     private String nome;
-    private double Altura;
-    private double Peso;
+    private float altura;
+    private float peso;
+    private float imc;
+    private String classificacao;
 
-    public Pessoa(String nome, double altura, double peso) {
+
+    public Pessoa() {
+    }
+
+    public Pessoa(long id, String nome, float altura, float peso, float imc, String classificacao) {
+        this.id = id;
         this.nome = nome;
-        Altura = altura;
-        Peso = peso;
+        this.altura = altura;
+        this.peso = peso;
+        this.imc = imc;
+        this.classificacao = classificacao;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getNome() {
@@ -19,19 +37,47 @@ public class Pessoa {
         this.nome = nome;
     }
 
-    public double getAltura() {
-        return Altura;
+    public float getAltura() {
+        return altura;
     }
 
-    public void setAltura(double altura) {
-        Altura = altura;
+    public void setAltura(float altura) {
+        this.altura = altura;
     }
 
-    public double getPeso() {
-        return Peso;
+    public float getPeso() {
+        return peso;
     }
 
-    public void setPeso(double peso) {
-        Peso = peso;
+    public void setPeso(float peso) {
+        this.peso = peso;
+    }
+
+    public float getImc() {
+        return imc;
+    }
+
+    public void setImc(float imc) {
+        this.imc = imc;
+    }
+
+    public String getClassificação() {
+        return classificacao;
+    }
+
+    public void setClassificacao(String classificação) {
+        this.classificacao = classificação;
+    }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", altura=" + altura +
+                ", peso=" + peso +
+                ", imc=" + imc +
+                ", classificação='" + classificacao + '\'' +
+                '}';
     }
 }
