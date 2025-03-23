@@ -21,6 +21,9 @@ public class Pessoa {
         this.classificacao = classificacao;
     }
 
+    public Pessoa(int id, String nome, double peso, double altura) {
+    }
+
     public long getId() {
         return id;
     }
